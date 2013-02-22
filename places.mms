@@ -7,9 +7,14 @@
   }
   
   [zoom > 6] {
-    marker-width:5;
-    marker-line-width: 0;
+    marker-width:7;
+    marker-line-width: 2;
+    marker-line-color: #fff;
     marker-fill:#888;
     marker-allow-overlap:false;
+  }
+  
+  [zoom > 11] {
+  	marker-width:0;
   }
 }

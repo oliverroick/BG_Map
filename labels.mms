@@ -33,7 +33,7 @@
   [zoom > 5][ADM0CAP=1] {text-size: @base-font-size;}
   [zoom > 6][ADM0CAP=1] {text-size: @base-font-size + 2;}
   [zoom > 7][ADM0CAP=1] {text-size: @base-font-size + 3;}
-  [zoom > 8][ADM0CAP=1] {text-size: @base-font-size + 4;}
+  [zoom > 8][ADM0CAP=1] {text-size: @base-font-size + 5;}
   
   [zoom > 6] {
     text-name: "[NAME]";
@@ -47,4 +47,7 @@
   [zoom > 6] {text-size: @base-font-size;}
   [zoom > 7] {text-size: @base-font-size + 1;}
   [zoom > 8] {text-size: @base-font-size + 2;}
+  [zoom > 11] {text-size: @base-font-size + 7;}
+  [zoom > 13] {text-size: @base-font-size + 16;}
+  [zoom > 14] {text-size: 0;}
 }
